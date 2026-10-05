@@ -1,0 +1,19 @@
+# One command demo: docker compose up --build, then open http://localhost:8081
+services:
+  backend:
+    build: ./backend
+    environment:
+      # The browser origin nginx serves from; the backend rejects other origins.
+      ALLOWED_ORIGINS: http://localhost:8081
+      # simulated = real HOSE/HNX timetable; always-open = prices move at any hour.
+      SESSION_MODE: ${SESSION_MODE:-always-open}
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8081:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped

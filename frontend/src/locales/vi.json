@@ -1,0 +1,372 @@
+{
+  "app": {
+    "name": "Mine Trade Guru",
+    "fullscreen": "Toàn màn hình",
+    "exitFullscreen": "Thoát toàn màn hình"
+  },
+  "common": {
+    "close": "Đóng",
+    "dismiss": "Bỏ qua",
+    "loading": "Đang tải",
+    "retry": "Thử lại"
+  },
+  "unit": {
+    "billion": "tỷ",
+    "shares": "CP",
+    "billionTitle": "Tỷ"
+  },
+  "search": {
+    "label": "Tìm mã chứng khoán",
+    "placeholder": "Tìm mã hoặc tên công ty (/)"
+  },
+  "board": {
+    "title": "Bảng giá",
+    "tabsLabel": "Bảng giá theo sàn",
+    "vn30": "VN30",
+    "hose": "HOSE",
+    "hnx30": "HNX30",
+    "hnx": "HNX",
+    "upcom": "UPCOM",
+    "watchlist": "Danh mục",
+    "derivatives": "Phái sinh",
+    "cw": "Chứng quyền",
+    "etf": "ETF",
+    "sector": "Ngành",
+    "sectorFilter": "Chọn ngành",
+    "filterPlaceholder": "Lọc mã",
+    "columns": "Cột hiển thị",
+    "columnsTitle": "Nhóm cột",
+    "columnsHint": "Bật/tắt và kéo để sắp xếp nhóm cột.",
+    "moveGroupUp": "Chuyển {group} lên",
+    "moveGroupDown": "Chuyển {group} xuống",
+    "resetLayout": "Khôi phục mặc định",
+    "pinSymbol": "Ghim {symbol} lên đầu",
+    "unpinSymbol": "Bỏ ghim {symbol}",
+    "loadError": "Không tải được danh sách mã",
+    "emptyTitle": "Không có mã nào",
+    "emptyText": "Thử bỏ bộ lọc hoặc chọn bảng khác.",
+    "emptyWatchlistTitle": "Danh mục trống",
+    "emptyWatchlistText": "Bấm ☆ ở một mã để thêm vào danh mục."
+  },
+  "column": {
+    "group": {
+      "symbol": "Mã CK",
+      "reference": "Giá tham chiếu",
+      "bids": "Bên mua",
+      "match": "Khớp lệnh",
+      "asks": "Bên bán",
+      "volume": "Tổng",
+      "ohlc": "Giá",
+      "foreign": "Nước ngoài"
+    },
+    "symbol": "Mã",
+    "ceiling": "Trần",
+    "floor": "Sàn",
+    "reference": "TC",
+    "price1": "Giá 1",
+    "price2": "Giá 2",
+    "price3": "Giá 3",
+    "volume1": "KL 1",
+    "volume2": "KL 2",
+    "volume3": "KL 3",
+    "price": "Giá",
+    "volume": "KL",
+    "change": "+/-",
+    "changePercent": "%",
+    "totalVolume": "Tổng KL",
+    "totalValue": "GT (tỷ)",
+    "open": "Mở cửa",
+    "high": "Cao",
+    "low": "Thấp",
+    "average": "TB",
+    "foreignBuy": "NN mua",
+    "foreignSell": "NN bán",
+    "foreignRoom": "Room NN"
+  },
+  "price": {
+    "aria": {
+      "ceiling": "giá trần",
+      "floor": "giá sàn",
+      "reference": "đứng giá",
+      "up": "tăng",
+      "down": "giảm"
+    }
+  },
+  "sector": {
+    "banking": "Ngân hàng",
+    "realEstate": "Bất động sản",
+    "securities": "Chứng khoán",
+    "steel": "Thép",
+    "oilGas": "Dầu khí",
+    "retail": "Bán lẻ",
+    "technology": "Công nghệ",
+    "foodBeverage": "Thực phẩm & đồ uống",
+    "utilities": "Tiện ích",
+    "transport": "Vận tải",
+    "construction": "Xây dựng",
+    "chemicals": "Hoá chất",
+    "insurance": "Bảo hiểm",
+    "industrial": "Công nghiệp",
+    "seafood": "Thuỷ sản"
+  },
+  "instrumentType": {
+    "stock": "Cổ phiếu",
+    "etf": "ETF",
+    "cw": "Chứng quyền",
+    "futures": "Hợp đồng tương lai"
+  },
+  "market": {
+    "hose": "HOSE",
+    "hnx": "HNX",
+    "upcom": "UPCOM",
+    "derivatives": "Phái sinh"
+  },
+  "session": {
+    "label": "Phiên giao dịch",
+    "nextIn": "phiên tiếp theo sau",
+    "preOpen": "Chờ mở cửa",
+    "ato": "ATO",
+    "continuous": "Liên tục",
+    "lunch": "Nghỉ trưa",
+    "atc": "ATC",
+    "putThrough": "Thoả thuận",
+    "closed": "Đóng cửa"
+  },
+  "connection": {
+    "idle": "Chưa kết nối",
+    "connecting": "Đang kết nối",
+    "open": "Trực tuyến",
+    "reconnecting": "Đang kết nối lại",
+    "offline": "Mất kết nối",
+    "paused": "Tạm dừng",
+    "pause": "Tạm dừng cập nhật (P)",
+    "resume": "Tiếp tục cập nhật (P)",
+    "lastTick": "{seconds}s trước"
+  },
+  "banner": {
+    "stale": "Giá chưa cập nhật trong {seconds} giây — dữ liệu có thể đã cũ.",
+    "reconnecting": "Mất kết nối, đang thử lại (lần {attempt}). Giá trên màn hình có thể đã cũ.",
+    "offline": "Mất kết nối tới máy chủ. Giá trên màn hình không còn cập nhật."
+  },
+  "overview": {
+    "title": "Tổng quan thị trường",
+    "expand": "Mở tổng quan",
+    "collapse": "Thu gọn tổng quan",
+    "indices": "Chỉ số thị trường",
+    "breadth": "Độ rộng thị trường",
+    "breadthSummary": "{exchange}: {advancers} tăng, {unchanged} đứng giá, {decliners} giảm",
+    "ceilingCount": "{count} trần",
+    "floorCount": "{count} sàn",
+    "advancersWithCeiling": "mã tăng (trong ngoặc: số mã trần)",
+    "declinersWithFloor": "mã giảm (trong ngoặc: số mã sàn)",
+    "unchanged": "mã đứng giá",
+    "volumeShort": "KL",
+    "valueShort": "GT",
+    "movers": {
+      "title": "Top cổ phiếu",
+      "gainers": "Tăng mạnh",
+      "losers": "Giảm mạnh",
+      "volume": "KL lớn",
+      "value": "GT lớn",
+      "empty": "Chưa có giao dịch"
+    },
+    "foreign": {
+      "title": "Khối ngoại",
+      "netBuy": "Mua ròng",
+      "netSell": "Bán ròng",
+      "empty": "Chưa có giao dịch",
+      "unit": "Giá trị ròng, tỷ đồng"
+    },
+    "heatmap": {
+      "title": "Bản đồ nhiệt theo ngành",
+      "summary": "Bản đồ nhiệt {count} mã, kích thước theo vốn hoá, màu theo % thay đổi",
+      "empty": "Đang chờ dữ liệu"
+    },
+    "session": "Phiên {phase}",
+    "chooseIndex": "Chọn chỉ số cho ô này",
+    "chart": "Biểu đồ {index} trong phiên",
+    "table": {
+      "index": "Chỉ số",
+      "points": "Điểm",
+      "change": "+/-",
+      "percent": "%",
+      "volume": "KLGD (Triệu)",
+      "value": "GTGD (Tỷ)",
+      "breadth": "CK Tăng/Giảm",
+      "toggleChange": "Đổi giữa +/- và %"
+    }
+  },
+  "detail": {
+    "chart": "Biểu đồ",
+    "loadError": "Không tải được dữ liệu mã",
+    "orderBook": "Sổ lệnh",
+    "bid": "Giá mua",
+    "bidVolume": "KL mua",
+    "ask": "Giá bán",
+    "askVolume": "KL bán",
+    "keyStats": "Thống kê",
+    "totalValueBillion": "Tổng GT (tỷ)",
+    "marketCap": "Vốn hoá",
+    "sector": "Ngành",
+    "tabsLabel": "Chi tiết giao dịch",
+    "tab": {
+      "trades": "Khớp lệnh",
+      "volumeByPrice": "KL theo giá"
+    },
+    "time": "Thời gian",
+    "price": "Giá",
+    "volume": "KL",
+    "side": "M/B",
+    "noTrades": "Chưa có giao dịch"
+  },
+  "trade": {
+    "side": {
+      "buy": "Mua",
+      "sell": "Bán",
+      "unknown": "ATO/ATC"
+    }
+  },
+  "chart": {
+    "ariaLabel": "Biểu đồ giá trong phiên, {count} nến",
+    "timeframeLabel": "Khung thời gian",
+    "showLine": "Chuyển sang biểu đồ đường",
+    "showCandles": "Chuyển sang biểu đồ nến",
+    "timeframe": {
+      "1m": "1p",
+      "5m": "5p",
+      "15m": "15p",
+      "1h": "1g"
+    },
+    "guide": {
+      "ceiling": "Trần",
+      "reference": "TC",
+      "floor": "Sàn"
+    }
+  },
+  "watchlist": {
+    "manage": "Quản lý danh mục",
+    "active": "Danh mục",
+    "defaultName": "Danh mục của tôi",
+    "name": "Tên danh mục",
+    "rename": "Đổi tên",
+    "newList": "Danh mục mới",
+    "create": "Tạo",
+    "delete": "Xoá danh mục",
+    "confirmDelete": "Bấm lần nữa để xoá",
+    "addSymbolLabel": "Thêm mã",
+    "add": "Thêm",
+    "addSymbol": "Thêm {symbol} vào danh mục (W)",
+    "removeSymbol": "Bỏ {symbol} khỏi danh mục (W)",
+    "unknownSymbol": "Không có mã này",
+    "import": "Nhập CSV",
+    "export": "Xuất CSV",
+    "importTooLarge": "Tệp quá lớn.",
+    "importResult": "Đã thêm {added} mã, {unknown} mã không hợp lệ, {duplicates} mã trùng."
+  },
+  "alert": {
+    "center": "Cảnh báo giá",
+    "createFor": "Tạo cảnh báo cho {symbol}",
+    "tab": {
+      "rules": "Quy tắc",
+      "history": "Lịch sử"
+    },
+    "condition": {
+      "priceAbove": "Giá ≥",
+      "priceBelow": "Giá ≤",
+      "changeAbove": "% thay đổi ≥",
+      "changeBelow": "% thay đổi ≤",
+      "hitsCeiling": "Chạm trần",
+      "hitsFloor": "Chạm sàn",
+      "largeTrade": "Lệnh khớp lớn ≥"
+    },
+    "form": {
+      "symbol": "Mã",
+      "condition": "Điều kiện",
+      "threshold": "Ngưỡng",
+      "add": "Thêm cảnh báo",
+      "unknownSymbol": "Không có mã này",
+      "invalidThreshold": "Nhập một số"
+    },
+    "unit": {
+      "thousandVnd": "nghìn đ",
+      "vnd": "đ",
+      "points": "điểm",
+      "percent": "%",
+      "shares": "CP",
+      "contracts": "HĐ"
+    },
+    "enabled": "Bật",
+    "deleteRule": "Xoá cảnh báo {symbol}",
+    "noRules": "Chưa có cảnh báo",
+    "noRulesHint": "Thêm một điều kiện ở trên.",
+    "noEvents": "Chưa có cảnh báo nào kích hoạt",
+    "noEventsHint": "Cảnh báo kích hoạt sẽ hiện ở đây.",
+    "markRead": "Đánh dấu đã đọc",
+    "markAllRead": "Đọc tất cả",
+    "clear": "Xoá lịch sử",
+    "unread": "chưa đọc",
+    "message": "{symbol}: {condition} — {value}",
+    "notificationTitle": "Cảnh báo {symbol}"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "language": "Ngôn ngữ",
+    "theme": {
+      "label": "Giao diện",
+      "dark": "Tối",
+      "light": "Sáng"
+    },
+    "density": {
+      "label": "Mật độ bảng",
+      "comfortable": "Thoáng",
+      "compact": "Gọn"
+    },
+    "fontScale": {
+      "label": "Cỡ chữ bảng",
+      "normal": "Bình thường",
+      "large": "Lớn"
+    },
+    "priceUnit": {
+      "label": "Đơn vị giá",
+      "thousand": "Nghìn đồng",
+      "vnd": "Đồng"
+    },
+    "volumeUnit": {
+      "label": "Đơn vị khối lượng",
+      "ten": "10 cổ phiếu",
+      "one": "1 cổ phiếu"
+    },
+    "flash": "Nháy khi giá đổi",
+    "sound": "Âm thanh cảnh báo",
+    "notifications": "Thông báo trình duyệt",
+    "reset": "Khôi phục mặc định"
+  },
+  "shortcut": {
+    "title": "Phím tắt",
+    "focusSearch": "Tìm mã",
+    "rowUp": "Lên một dòng",
+    "rowDown": "Xuống một dòng",
+    "openDetail": "Mở chi tiết mã",
+    "toggleWatch": "Thêm/bỏ khỏi danh mục",
+    "closeDrawer": "Đóng chi tiết",
+    "togglePause": "Tạm dừng/tiếp tục cập nhật",
+    "toggleFullscreen": "Toàn màn hình",
+    "help": "Xem phím tắt"
+  },
+  "perf": {
+    "title": "Hiệu năng",
+    "framesPerSecond": "Khung/giây",
+    "transit": "Độ trễ mạng",
+    "tickToPaintP50": "Tick→vẽ p50",
+    "tickToPaintP95": "Tick→vẽ p95",
+    "applyPatch": "Áp patch",
+    "dropped": "Khung bỏ",
+    "resyncs": "Đồng bộ lại",
+    "heap": "Heap"
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "text": "Đường dẫn này không tồn tại.",
+    "back": "Về bảng giá"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "mine-trade-guru-backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "dev:stress": "SESSION_MODE=always-open SYMBOL_COUNT=1500 TICKS_PER_SECOND=5 TRADE_HISTORY_LIMIT=100 tsx src/server.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --max-warnings 0",
+    "test:unit": "vitest run"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.13.3",
+    "@types/ws": "^8.18.2",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.71.0",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.3"
+  }
+}

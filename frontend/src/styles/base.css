@@ -1,0 +1,18 @@
+/* Global base styles (docs/design-system.md §3–4). Screen-reader-only text uses Vuetify's .d-sr-only. */
+html,
+body {
+  font-family: var(--mtg-font-family);
+}
+
+/* Every number: tabular figures so digits line up in every column (rule S6). */
+.mtg-num {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+  text-align: right;
+  white-space: nowrap;
+}
+
+:focus-visible {
+  outline: var(--mtg-focus-ring-width) solid rgb(var(--v-theme-primary));
+  outline-offset: var(--mtg-focus-ring-offset);
+}

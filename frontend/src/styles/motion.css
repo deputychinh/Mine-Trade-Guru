@@ -1,0 +1,81 @@
+/*
+ * Price flash (FR-04). Pure CSS: usePriceFlash only swaps a class, no timers per cell.
+ * Each direction has an identical "-alt" keyframe; alternating between the two class names
+ * restarts the animation when the same cell ticks the same way twice in a row.
+ * The whole cell holds the color for the first third, then fades (iBoard-style blink).
+ * Only background-color is animated (rule S5).
+ */
+@keyframes mtg-flash-up {
+  0%,
+  35% {
+    background-color: color-mix(in srgb, rgb(var(--v-theme-market-up)) calc(var(--mtg-flash-opacity) * 100%), transparent);
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes mtg-flash-up-alt {
+  0%,
+  35% {
+    background-color: color-mix(in srgb, rgb(var(--v-theme-market-up)) calc(var(--mtg-flash-opacity) * 100%), transparent);
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes mtg-flash-down {
+  0%,
+  35% {
+    background-color: color-mix(in srgb, rgb(var(--v-theme-market-down)) calc(var(--mtg-flash-opacity) * 100%), transparent);
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes mtg-flash-down-alt {
+  0%,
+  35% {
+    background-color: color-mix(in srgb, rgb(var(--v-theme-market-down)) calc(var(--mtg-flash-opacity) * 100%), transparent);
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mtg-flash-up {
+    animation: mtg-flash-up var(--mtg-flash-duration) var(--mtg-flash-easing);
+  }
+
+  .mtg-flash-up-alt {
+    animation: mtg-flash-up-alt var(--mtg-flash-duration) var(--mtg-flash-easing);
+  }
+
+  .mtg-flash-down {
+    animation: mtg-flash-down var(--mtg-flash-duration) var(--mtg-flash-easing);
+  }
+
+  .mtg-flash-down-alt {
+    animation: mtg-flash-down-alt var(--mtg-flash-duration) var(--mtg-flash-easing);
+  }
+}
+
+/* NFR-U4: no motion — a faint static tint marks the last change instead. */
+@media (prefers-reduced-motion: reduce) {
+  .mtg-flash-up,
+  .mtg-flash-up-alt {
+    background-color: color-mix(in srgb, rgb(var(--v-theme-market-up)) calc(var(--mtg-flash-static-opacity) * 100%), transparent);
+  }
+
+  .mtg-flash-down,
+  .mtg-flash-down-alt {
+    background-color: color-mix(in srgb, rgb(var(--v-theme-market-down)) calc(var(--mtg-flash-static-opacity) * 100%), transparent);
+  }
+}

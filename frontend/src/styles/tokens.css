@@ -1,0 +1,112 @@
+/* Non-color design tokens (docs/design-system.md §3). Colors come from the Vuetify theme as --v-theme-*. */
+:root {
+  /* Spacing, 4 px grid (M3) */
+  --mtg-space-0: 0;
+  --mtg-space-1: 4px;
+  --mtg-space-2: 8px;
+  --mtg-space-3: 12px;
+  --mtg-space-4: 16px;
+  --mtg-space-5: 24px;
+  --mtg-space-6: 32px;
+
+  /* Shape scale (M3) */
+  --mtg-shape-none: 0;
+  --mtg-shape-xs: 4px;
+  --mtg-shape-sm: 8px;
+  --mtg-shape-md: 12px;
+  --mtg-shape-lg: 16px;
+  --mtg-shape-xl: 28px;
+  --mtg-shape-full: 9999px;
+
+  /* Type (M3 scale, used where Vuetify classes don't fit, e.g. the board) */
+  --mtg-font-family: 'Roboto', system-ui, sans-serif;
+  --mtg-font-label-sm: 11px;
+  --mtg-font-label-md: 12px;
+  --mtg-font-body-sm: 12px;
+  --mtg-font-body-md: 14px;
+  --mtg-font-title-sm: 14px;
+  --mtg-font-title-md: 16px;
+  --mtg-font-headline-sm: 24px;
+  --mtg-weight-regular: 400;
+  --mtg-weight-medium: 500;
+  --mtg-weight-bold: 700;
+
+  /* State layers (M3) */
+  --mtg-state-hover: 0.08;
+  --mtg-state-focus: 0.1;
+  --mtg-state-pressed: 0.1;
+  --mtg-state-dragged: 0.16;
+  --mtg-state-selected: 0.12;
+
+  /* Motion (M3) */
+  --mtg-duration-short2: 100ms;
+  --mtg-duration-short4: 200ms;
+  --mtg-duration-medium2: 300ms;
+  --mtg-duration-long2: 500ms;
+  --mtg-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --mtg-easing-emphasized-decelerate: cubic-bezier(0.05, 0.7, 0.1, 1);
+  --mtg-easing-emphasized-accelerate: cubic-bezier(0.3, 0, 0.8, 0.15);
+
+  /* Price flash */
+  --mtg-flash-duration: 900ms;
+  --mtg-flash-opacity: 0.45;
+
+  /* Linear: after the hold, the color fades evenly instead of vanishing at once. */
+  --mtg-flash-easing: linear;
+  --mtg-flash-static-opacity: 0.12;
+
+  /* Hairline gap between joined segments (bars) */
+  --mtg-hairline: 1px;
+
+  /* Focus */
+  --mtg-focus-ring-width: 2px;
+  --mtg-focus-ring-offset: 2px;
+
+  /* Board metrics (comfortable = default); keep row heights in sync with BOARD_ROW_HEIGHT in constants/limits.ts */
+  --mtg-board-row-height: 32px;
+  --mtg-board-header-height: 36px;
+  --mtg-board-font-size: var(--mtg-font-body-md);
+  --mtg-board-cell-padding-x: var(--mtg-space-2);
+  --mtg-board-col-symbol: 72px;
+  --mtg-board-col-price: 80px;
+  --mtg-board-col-volume: 80px;
+  --mtg-board-col-value: 88px;
+  --mtg-board-col-actions: 56px;
+  --mtg-board-body-height: 60vh;
+  --mtg-board-marker-size: 9px;
+
+  /* Layout */
+  --mtg-header-height: 56px;
+  --mtg-ticker-height: 72px;
+  --mtg-drawer-width: 480px;
+  --mtg-panel-min-width: 280px;
+  --mtg-heatmap-height: 320px;
+  --mtg-chart-height: 280px;
+  --mtg-search-width: 320px;
+  --mtg-index-card-min-width: 260px;
+  --mtg-index-chart-height: 120px;
+  --mtg-index-table-min-width: 520px;
+  --mtg-panel-list-height: 320px;
+  --mtg-bar-height: 8px;
+
+  /* Heatmap scale (derived, design-system.md §2.3) */
+  --mtg-heat-n3: rgb(var(--v-theme-market-down));
+  --mtg-heat-n2: color-mix(in oklch, rgb(var(--v-theme-market-down)) 66%, rgb(var(--v-theme-surface-variant)));
+  --mtg-heat-n1: color-mix(in oklch, rgb(var(--v-theme-market-down)) 33%, rgb(var(--v-theme-surface-variant)));
+  --mtg-heat-0: rgb(var(--v-theme-surface-variant));
+  --mtg-heat-p1: color-mix(in oklch, rgb(var(--v-theme-market-up)) 33%, rgb(var(--v-theme-surface-variant)));
+  --mtg-heat-p2: color-mix(in oklch, rgb(var(--v-theme-market-up)) 66%, rgb(var(--v-theme-surface-variant)));
+  --mtg-heat-p3: rgb(var(--v-theme-market-up));
+}
+
+[data-density='compact'] {
+  --mtg-board-row-height: 24px;
+  --mtg-board-header-height: 28px;
+  --mtg-board-font-size: var(--mtg-font-body-sm);
+  --mtg-board-cell-padding-x: var(--mtg-space-1);
+}
+
+[data-font-scale='large'] {
+  --mtg-board-font-size: var(--mtg-font-title-md);
+  --mtg-board-row-height: 36px;
+}

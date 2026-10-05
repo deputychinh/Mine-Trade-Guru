@@ -1,0 +1,372 @@
+{
+  "app": {
+    "name": "Mine Trade Guru",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen"
+  },
+  "common": {
+    "close": "Close",
+    "dismiss": "Dismiss",
+    "loading": "Loading",
+    "retry": "Retry"
+  },
+  "unit": {
+    "billion": "bn",
+    "shares": "shares",
+    "billionTitle": "bn"
+  },
+  "search": {
+    "label": "Search symbols",
+    "placeholder": "Search symbol or company (/)"
+  },
+  "board": {
+    "title": "Price board",
+    "tabsLabel": "Price boards",
+    "vn30": "VN30",
+    "hose": "HOSE",
+    "hnx30": "HNX30",
+    "hnx": "HNX",
+    "upcom": "UPCOM",
+    "watchlist": "Watchlist",
+    "derivatives": "Derivatives",
+    "cw": "Warrants",
+    "etf": "ETF",
+    "sector": "Sectors",
+    "sectorFilter": "Choose sector",
+    "filterPlaceholder": "Filter symbols",
+    "columns": "Columns",
+    "columnsTitle": "Column groups",
+    "columnsHint": "Toggle groups and drag to reorder.",
+    "moveGroupUp": "Move {group} up",
+    "moveGroupDown": "Move {group} down",
+    "resetLayout": "Reset to default",
+    "pinSymbol": "Pin {symbol} to top",
+    "unpinSymbol": "Unpin {symbol}",
+    "loadError": "Couldn't load the symbol list",
+    "emptyTitle": "No symbols",
+    "emptyText": "Clear the filter or pick another board.",
+    "emptyWatchlistTitle": "Your watchlist is empty",
+    "emptyWatchlistText": "Click ☆ on any symbol to add it."
+  },
+  "column": {
+    "group": {
+      "symbol": "Symbol",
+      "reference": "Reference prices",
+      "bids": "Bids",
+      "match": "Matched",
+      "asks": "Asks",
+      "volume": "Total",
+      "ohlc": "Prices",
+      "foreign": "Foreign"
+    },
+    "symbol": "Symbol",
+    "ceiling": "Ceil",
+    "floor": "Floor",
+    "reference": "Ref",
+    "price1": "Price 1",
+    "price2": "Price 2",
+    "price3": "Price 3",
+    "volume1": "Vol 1",
+    "volume2": "Vol 2",
+    "volume3": "Vol 3",
+    "price": "Price",
+    "volume": "Vol",
+    "change": "+/-",
+    "changePercent": "%",
+    "totalVolume": "Total vol",
+    "totalValue": "Value (bn)",
+    "open": "Open",
+    "high": "High",
+    "low": "Low",
+    "average": "Avg",
+    "foreignBuy": "Frgn buy",
+    "foreignSell": "Frgn sell",
+    "foreignRoom": "Frgn room"
+  },
+  "price": {
+    "aria": {
+      "ceiling": "at ceiling",
+      "floor": "at floor",
+      "reference": "unchanged",
+      "up": "up",
+      "down": "down"
+    }
+  },
+  "sector": {
+    "banking": "Banking",
+    "realEstate": "Real estate",
+    "securities": "Securities",
+    "steel": "Steel",
+    "oilGas": "Oil & gas",
+    "retail": "Retail",
+    "technology": "Technology",
+    "foodBeverage": "Food & beverage",
+    "utilities": "Utilities",
+    "transport": "Transport",
+    "construction": "Construction",
+    "chemicals": "Chemicals",
+    "insurance": "Insurance",
+    "industrial": "Industrial",
+    "seafood": "Seafood"
+  },
+  "instrumentType": {
+    "stock": "Stock",
+    "etf": "ETF",
+    "cw": "Covered warrant",
+    "futures": "Futures"
+  },
+  "market": {
+    "hose": "HOSE",
+    "hnx": "HNX",
+    "upcom": "UPCOM",
+    "derivatives": "Derivatives"
+  },
+  "session": {
+    "label": "Trading sessions",
+    "nextIn": "next phase in",
+    "preOpen": "Pre-open",
+    "ato": "ATO",
+    "continuous": "Continuous",
+    "lunch": "Lunch break",
+    "atc": "ATC",
+    "putThrough": "Put-through",
+    "closed": "Closed"
+  },
+  "connection": {
+    "idle": "Not connected",
+    "connecting": "Connecting",
+    "open": "Live",
+    "reconnecting": "Reconnecting",
+    "offline": "Offline",
+    "paused": "Paused",
+    "pause": "Pause updates (P)",
+    "resume": "Resume updates (P)",
+    "lastTick": "{seconds}s ago"
+  },
+  "banner": {
+    "stale": "No price updates for {seconds} seconds — data may be out of date.",
+    "reconnecting": "Connection lost, retrying (attempt {attempt}). Prices on screen may be out of date.",
+    "offline": "Can't reach the server. Prices on screen are no longer updating."
+  },
+  "overview": {
+    "title": "Market overview",
+    "expand": "Expand overview",
+    "collapse": "Collapse overview",
+    "indices": "Market indices",
+    "breadth": "Market breadth",
+    "breadthSummary": "{exchange}: {advancers} up, {unchanged} unchanged, {decliners} down",
+    "ceilingCount": "{count} at ceiling",
+    "floorCount": "{count} at floor",
+    "advancersWithCeiling": "advancers (at ceiling in brackets)",
+    "declinersWithFloor": "decliners (at floor in brackets)",
+    "unchanged": "unchanged",
+    "volumeShort": "Vol",
+    "valueShort": "Val",
+    "movers": {
+      "title": "Top movers",
+      "gainers": "Gainers",
+      "losers": "Losers",
+      "volume": "Volume",
+      "value": "Value",
+      "empty": "No trades yet"
+    },
+    "foreign": {
+      "title": "Foreign flow",
+      "netBuy": "Net buy",
+      "netSell": "Net sell",
+      "empty": "No trades yet",
+      "unit": "Net value, VND bn"
+    },
+    "heatmap": {
+      "title": "Sector heatmap",
+      "summary": "Heatmap of {count} symbols, sized by market cap, colored by change %",
+      "empty": "Waiting for data"
+    },
+    "session": "{phase} session",
+    "chooseIndex": "Choose the index for this card",
+    "chart": "{index} intraday chart",
+    "table": {
+      "index": "Index",
+      "points": "Points",
+      "change": "+/-",
+      "percent": "%",
+      "volume": "Volume (M)",
+      "value": "Value (bn)",
+      "breadth": "Up / Down",
+      "toggleChange": "Switch between +/- and %"
+    }
+  },
+  "detail": {
+    "chart": "Chart",
+    "loadError": "Couldn't load this symbol",
+    "orderBook": "Order book",
+    "bid": "Bid",
+    "bidVolume": "Bid vol",
+    "ask": "Ask",
+    "askVolume": "Ask vol",
+    "keyStats": "Key stats",
+    "totalValueBillion": "Value (bn)",
+    "marketCap": "Market cap",
+    "sector": "Sector",
+    "tabsLabel": "Trade details",
+    "tab": {
+      "trades": "Time & sales",
+      "volumeByPrice": "Volume by price"
+    },
+    "time": "Time",
+    "price": "Price",
+    "volume": "Vol",
+    "side": "Side",
+    "noTrades": "No trades yet"
+  },
+  "trade": {
+    "side": {
+      "buy": "Buy",
+      "sell": "Sell",
+      "unknown": "ATO/ATC"
+    }
+  },
+  "chart": {
+    "ariaLabel": "Intraday price chart, {count} bars",
+    "timeframeLabel": "Timeframe",
+    "showLine": "Switch to line chart",
+    "showCandles": "Switch to candles",
+    "timeframe": {
+      "1m": "1m",
+      "5m": "5m",
+      "15m": "15m",
+      "1h": "1h"
+    },
+    "guide": {
+      "ceiling": "Ceil",
+      "reference": "Ref",
+      "floor": "Floor"
+    }
+  },
+  "watchlist": {
+    "manage": "Manage watchlists",
+    "active": "Watchlist",
+    "defaultName": "My watchlist",
+    "name": "Name",
+    "rename": "Rename",
+    "newList": "New watchlist",
+    "create": "Create",
+    "delete": "Delete list",
+    "confirmDelete": "Click again to delete",
+    "addSymbolLabel": "Add symbol",
+    "add": "Add",
+    "addSymbol": "Add {symbol} to watchlist (W)",
+    "removeSymbol": "Remove {symbol} from watchlist (W)",
+    "unknownSymbol": "Unknown symbol",
+    "import": "Import CSV",
+    "export": "Export CSV",
+    "importTooLarge": "File is too large.",
+    "importResult": "Added {added}, {unknown} invalid, {duplicates} already listed."
+  },
+  "alert": {
+    "center": "Price alerts",
+    "createFor": "Create alert for {symbol}",
+    "tab": {
+      "rules": "Rules",
+      "history": "History"
+    },
+    "condition": {
+      "priceAbove": "Price ≥",
+      "priceBelow": "Price ≤",
+      "changeAbove": "Change % ≥",
+      "changeBelow": "Change % ≤",
+      "hitsCeiling": "Hits ceiling",
+      "hitsFloor": "Hits floor",
+      "largeTrade": "Single trade ≥"
+    },
+    "form": {
+      "symbol": "Symbol",
+      "condition": "Condition",
+      "threshold": "Threshold",
+      "add": "Add alert",
+      "unknownSymbol": "Unknown symbol",
+      "invalidThreshold": "Enter a number"
+    },
+    "unit": {
+      "thousandVnd": "k VND",
+      "vnd": "VND",
+      "points": "pts",
+      "percent": "%",
+      "shares": "shares",
+      "contracts": "contracts"
+    },
+    "enabled": "On",
+    "deleteRule": "Delete {symbol} alert",
+    "noRules": "No alerts yet",
+    "noRulesHint": "Add a condition above.",
+    "noEvents": "No alerts triggered yet",
+    "noEventsHint": "Triggered alerts show up here.",
+    "markRead": "Mark as read",
+    "markAllRead": "Mark all read",
+    "clear": "Clear history",
+    "unread": "unread",
+    "message": "{symbol}: {condition} — {value}",
+    "notificationTitle": "{symbol} alert"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": {
+      "label": "Theme",
+      "dark": "Dark",
+      "light": "Light"
+    },
+    "density": {
+      "label": "Board density",
+      "comfortable": "Comfortable",
+      "compact": "Compact"
+    },
+    "fontScale": {
+      "label": "Board font size",
+      "normal": "Normal",
+      "large": "Large"
+    },
+    "priceUnit": {
+      "label": "Price unit",
+      "thousand": "Thousand VND",
+      "vnd": "VND"
+    },
+    "volumeUnit": {
+      "label": "Volume unit",
+      "ten": "10 shares",
+      "one": "1 share"
+    },
+    "flash": "Flash on change",
+    "sound": "Alert sound",
+    "notifications": "Browser notifications",
+    "reset": "Reset to default"
+  },
+  "shortcut": {
+    "title": "Keyboard shortcuts",
+    "focusSearch": "Search symbols",
+    "rowUp": "Previous row",
+    "rowDown": "Next row",
+    "openDetail": "Open symbol detail",
+    "toggleWatch": "Add/remove from watchlist",
+    "closeDrawer": "Close detail",
+    "togglePause": "Pause/resume updates",
+    "toggleFullscreen": "Fullscreen",
+    "help": "Show shortcuts"
+  },
+  "perf": {
+    "title": "Performance",
+    "framesPerSecond": "Frames/s",
+    "transit": "Network latency",
+    "tickToPaintP50": "Tick→paint p50",
+    "tickToPaintP95": "Tick→paint p95",
+    "applyPatch": "Apply patch",
+    "dropped": "Dropped",
+    "resyncs": "Resyncs",
+    "heap": "Heap"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This address doesn't exist.",
+    "back": "Back to the board"
+  }
+}
